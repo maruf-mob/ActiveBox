@@ -347,5 +347,50 @@ nav .navbar .nav-list ul li:hover a{
 /* ==============================
     team section css ends
 ================================ */
+#slider{
+    height:500px;
+    background:#3a3e64;
+    display:flex;
+}
+#slider .slider-image{
+    height:500px;
+    width:50%;
+    background:#61c748;
+}
+#slider .slider-image img{
+    width:100%;
+    height:500px;
+}
+#slider .slider-text{
+    height:500px;
+    width:50%;
+    background:var(--bg-test);
+}
+#slider .slider-text h4{
+    padding:114px 78px 30px 85px;
+    line-height: 42px;
+}
+#slider .slider-text p{
+    padding-left:85px;
+    padding-bottom:65px;
+}
+#slider .slider-text .dot-sign{
+    display:flex;
+    padding-left:42%;
+}
+#slider .slider-text .dot-sign .dot-element{
+    height:12px;
+    width:12px;
+    border-radius: 50%;
+    background:#755d6e;
+    margin-right:9px;
+    
+}
+
+
+
+/* ==============================
+    slider section css ends
+================================ */
 
 
