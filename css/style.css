@@ -297,7 +297,8 @@ nav .navbar .nav-list ul li:hover a{
 ================================ */
 #team{
     height:585px;
-    padding:100px 0;
+    padding-top:100px;
+    padding-bottom:140px;
 }
 #team .team-main{
     height:585px;
@@ -385,6 +386,9 @@ nav .navbar .nav-list ul li:hover a{
     background:#755d6e;
     margin-right:9px;
     
+}
+#slider .slider-text .dot-sign .dot-element:nth-child(2){
+    background:#ffffff;
 }
 
 
