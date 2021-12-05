@@ -354,7 +354,6 @@ nav .navbar .nav-list ul li:hover a{
 ================================ */
 #slider{
     height:500px;
-    background:#3a3e64;
     display:flex;
 }
 #slider .slider-image{
