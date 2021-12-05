@@ -423,5 +423,97 @@ nav .navbar .nav-list ul li:hover a{
 /* ==============================
     download section css ends
 ================================ */
+#footer{
+    height:92px;
+    background:var(--bg-ft1); 
+    padding-top:70px;
+    padding-bottom: 85px;
+       
+}
+#footer .footer-details{
+    height:92px;  
+    display:flex; 
+    justify-content: space-between; 
+}
+#footer .footer-details .location{
+    width:230px;
+    height:92px;
+}
+#footer .footer-details .location h5{
+    padding-bottom:19px;
+}
+#footer .footer-details .location p{
+    padding:0 27px;
+    opacity:50%;
+}
+
+#footer .footer-details .share{
+    width:230px;
+    height:92px;
+}
+#footer .footer-details .share h5{
+    padding-bottom:19px;
+}
+#footer .footer-details .share .social{
+    display:flex;
+    justify-content: center;
+    
+    
+}
+#footer .footer-details .share .face{
+    height:40px;
+    width:40px;
+    border:2px solid #ffffff;
+    margin-right:7px;
+    transition:all linear 0.4s;
+}
+#footer .footer-details .share .face i{
+    line-height: 40px;
+}
+#footer .footer-details .share .face:hover{
+    background:#ffffff;
+}
+#footer .footer-details .share .face:hover i{
+    color:var(--bg-ft1);
+}
+
+#footer .footer-details .about{
+    width:370px;
+    height:92px;
+}
+#footer .footer-details .about h5{
+    padding-bottom:19px;
+}
+#footer .footer-details .about p{
+    padding:0 20px;
+    opacity:50%;
+}
+
+/* ==============================
+    footer section css ends
+================================ */
+#copyright{
+    height:40px;
+    background:var(--bg-ft2);
+    padding-top:28px;
+    padding-bottom:30px;
+}
+#copyright .copyright-text{
+    height:40px;
+    background:var(--bg-ft2);
+    
+}
+#copyright .copyright-text p{
+    padding:0 410px;
+    line-height: 22.5px;
+}
+#copyright .copyright-text p i{
+    color:var(--brand);
+}
+
+
+/* ==============================
+    copyright section css ends
+================================ */
 
 
