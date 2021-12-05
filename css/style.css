@@ -466,6 +466,9 @@ nav .navbar .nav-list ul li:hover a{
     margin-right:7px;
     transition:all linear 0.4s;
 }
+#footer .footer-details .share .face:last-of-type{
+    margin-right:0;
+}
 #footer .footer-details .share .face i{
     line-height: 40px;
 }
