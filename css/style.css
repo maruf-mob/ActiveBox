@@ -153,6 +153,14 @@ nav{
     position:absolute;
     inset:0;
     z-index:999;
+    transition:all linear 0.2s;
+}
+.nav-color{
+    background:var(--bg-ft1);
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:99999;
 }
 nav .navbar{
     display:flex;
@@ -515,6 +523,32 @@ nav .navbar .nav-list ul li:hover a{
 
 /* ==============================
     copyright section css ends
+================================ */
+button{
+    width:40px;
+    height:40px;
+    background:var(--brand);
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    border:none;
+    border-radius: 5px;
+    cursor:pointer;
+    display:none;
+}
+button i{
+    color:#ffffff;
+}
+button:hover{
+    background:var(--bg-test);
+}
+
+
+
+
+
+/* ==============================
+ back to top btn section css ends
 ================================ */
 
 
