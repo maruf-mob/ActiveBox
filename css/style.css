@@ -535,6 +535,7 @@ button{
     border-radius: 5px;
     cursor:pointer;
     display:none;
+    transition:all linear 0.4s;
 }
 button i{
     color:#ffffff;
